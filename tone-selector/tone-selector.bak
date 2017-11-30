@@ -258,7 +258,7 @@ U 1 1 5A1F08FA
 P 4750 3600
 F 0 "C2" H 4775 3700 50  0000 L CNN
 F 1 "1n" H 4775 3500 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D12_P7.75" H 4788 3450 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 4788 3450 50  0001 C CNN
 F 3 "" H 4750 3600 50  0000 C CNN
 	1    4750 3600
 	0    1    1    0   
@@ -302,20 +302,9 @@ U 1 1 5A1F71E6
 P 1550 3100
 F 0 "BT1" H 1650 3150 50  0000 L CNN
 F 1 "Battery" H 1650 3050 50  0000 L CNN
-F 2 "Battery_Holders:Keystone_106_1x20mm-CoinCell" V 1550 3140 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" V 1550 3140 50  0001 C CNN
 F 3 "" V 1550 3140 50  0000 C CNN
 	1    1550 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Battery BT2
-U 1 1 5A1F973C
-P 1550 3550
-F 0 "BT2" H 1650 3600 50  0000 L CNN
-F 1 "Battery" H 1650 3500 50  0000 L CNN
-F 2 "Battery_Holders:Keystone_106_1x20mm-CoinCell" V 1550 3590 50  0001 C CNN
-F 3 "" V 1550 3590 50  0000 C CNN
-	1    1550 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -424,9 +413,7 @@ Wire Wire Line
 	6250 2500 6250 2650
 Connection ~ 6250 2650
 Wire Wire Line
-	1550 3250 1550 3400
-Wire Wire Line
-	1550 3700 1550 4350
+	1550 3250 1550 4350
 $Comp
 L switch5pos SW51
 U 1 1 5A1FBA86
